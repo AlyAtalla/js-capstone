@@ -13,6 +13,6 @@ export const addLike = async (item_id) => {
       },
     });
   } catch (err) {
-    
+    console.error('Error occurred during API call:', error);
   }
 };

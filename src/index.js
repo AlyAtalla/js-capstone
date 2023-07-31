@@ -101,8 +101,7 @@ const main = async () => {
     likes="${likes}"
     ></item-card>`;
       const commentBtn = document.createElement('button');
-      const commentBtnClasses =
-        'comment-btn bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded';
+      const commentBtnClasses = 'comment-btn bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded';
       commentBtn.classList.add(...commentBtnClasses.split(' '));
       commentBtn.innerHTML = 'Comment';
       commentBtn.addEventListener('click', () => {
@@ -112,7 +111,7 @@ const main = async () => {
           objectID,
           objectDate,
           period,
-          repository
+          repository,
         );
       });
       itemDiv.appendChild(commentBtn);
