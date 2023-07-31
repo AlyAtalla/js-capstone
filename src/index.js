@@ -53,7 +53,12 @@ const handleSubmit = (e, id) => {
 
 const openModal = (title, img, id, objectDate, period, repository) => {
   const modal = createModal({
-    title, img, id, objectDate, period, repository,
+    title,
+    img,
+    id,
+    objectDate,
+    period,
+    repository,
   });
   document.body.appendChild(modal);
   const closeButton = document.querySelector('#close-modal');
@@ -77,34 +82,44 @@ const main = async () => {
     likesObj[item_id] = likes;
   });
   const itemsContainer = document.querySelector('.items-container');
-  items.forEach(({
-    title, primaryImageSmall, objectID, objectDate, period, repository,
-  }) => {
-    const likes = likesObj[objectID] ? likesObj[objectID] : 0;
-    const itemDiv = document.createElement('div');
-    itemDiv.classList.add(
-      'flex',
-      'flex-col',
-      'w-full',
-      'py-4',
-    );
-    itemDiv.innerHTML = `<item-card
+  items.forEach(
+    ({
+      title,
+      primaryImageSmall,
+      objectID,
+      objectDate,
+      period,
+      repository,
+    }) => {
+      const likes = likesObj[objectID] ? likesObj[objectID] : 0;
+      const itemDiv = document.createElement('div');
+      itemDiv.classList.add('flex', 'flex-col', 'w-full', 'py-4');
+      itemDiv.innerHTML = `<item-card
     imgSrc="${primaryImageSmall}"
     objectID="${objectID}"
     title="${title}"
     likes="${likes}"
     >
     </item-card>`;
-    const commentBtn = document.createElement('button');
-    const commentBtnClasses = 'comment-btn bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded';
-    commentBtn.classList.add(...commentBtnClasses.split(' '));
-    commentBtn.innerHTML = 'Comment';
-    commentBtn.addEventListener('click', () => {
-      openModal(title, primaryImageSmall, objectID, objectDate, period, repository);
-    });
-    itemDiv.appendChild(commentBtn);
-    itemsContainer.appendChild(itemDiv);
-  });
+      const commentBtn = document.createElement('button');
+      const commentBtnClasses =
+        'comment-btn bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded';
+      commentBtn.classList.add(...commentBtnClasses.split(' '));
+      commentBtn.innerHTML = 'Comment';
+      commentBtn.addEventListener('click', () => {
+        openModal(
+          title,
+          primaryImageSmall,
+          objectID,
+          objectDate,
+          period,
+          repository
+        );
+      });
+      itemDiv.appendChild(commentBtn);
+      itemsContainer.appendChild(itemDiv);
+    }
+  );
 
   const likeBtns = document.querySelectorAll('.like-btn');
   likeBtns.forEach((btn) => {
