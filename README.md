@@ -1,7 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  
+   <img src="rsz_my-logo.jpeg" alt="logo" width="140"  height="auto" />
+  <br/>
   <h3><b>JS Capstone</b></h3>
 
 </div>
@@ -32,6 +33,9 @@
 
 **JS-Capstone** The repository serves as a showcase to demonstrate proficiency in utilizing different tools and implementing established practices acquired during prior stages. this is a collaborative project.
 
+![Snapshot](/screenshot1.jpeg)
+![Snapshot](/screenshot2.jpeg)
+![Snapshot](/screenshot3.jpeg)
 
 ## 🛠 Built With <a name="built-with"></a>
 
