@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abel-tefera/js-capstone.git"
+    "url": "git+https://github.com/AlyAtalla/JS-Capstone.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abel-tefera/js-capstone/issues"
+    "url": "https://github.com/AlyAtalla/JS-Capstone/issues"
   },
-  "homepage": "https://github.com/abel-tefera/js-capstone#readme",
+  "homepage": "https://github.com/AlyAtalla/JS-Capstone#readme",
   "devDependencies": {
     "@babel/eslint-parser": "^7.21.3",
     "@babel/plugin-transform-modules-commonjs": "^7.21.2",
