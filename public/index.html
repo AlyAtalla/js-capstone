@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Capstone</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header
+      class="flex flex-row justify-between py-3 items-center py-md-8 mb-4 px-20"
+    >
+      <a href="https://www.metmuseum.org/" target="_blank">
+        <img class="brand h-16" alt="Art Museum" src="./assets/logo.jpg" />
+      </a>
+      <div>
+        <span
+          class="px-2 cursor-pointer text-gray-600 hover:text-gray-800 active:text-black"
+          >Art <span id="counter"></span
+        ></span>
+        <span
+          class="px-2 cursor-pointer text-gray-600 hover:text-gray-800 active:text-black"
+          >Museum</span
+        >
+        <span
+          class="px-2 cursor-pointer text-gray-600 hover:text-gray-800 active:text-black"
+          >Visit</span
+        >
+      </div>
+    </header>
+
+    <!-- main -->
+    <main class="container mx-auSto">
+      <h1 class="text-black pl-8 text-4xl">Egyptian Art</h1>
+      <div
+        class="items-container w-full mx-auto px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 flex-wrap"
+      ></div>
+    </main>
+
+    <!-- footer -->
+    <footer class="py-8 mt-4 border border-t-gray-300 shadow-sm">
+      <div class="flex justify-center">
+        <p class="text-gray-500 text-sm">
+          &copy; 2023 by
+          <a href="https://github.com/abel-tefera" class="text-blue-500"
+            >Abel</a
+          >
+          and
+          <a href="https://github.com/kimitawanjohi" class="text-blue-500"
+            >Kimita</a
+          >
+          . Proudly created with
+          <a href="https://tailwindcss.com/" class="text-blue-500"
+            >Tailwind CSS</a
+          >
+        </p>
+      </div>
+    </footer>
+    <script defer src="bundle.js"></script>
+  </body>
+</html>
