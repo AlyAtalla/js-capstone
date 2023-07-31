@@ -7,7 +7,7 @@ import { addLike } from './api/addLike.js';
 import createModal from './views/modal.js';
 import { postComment } from './api/comments.js';
 import { itemsCounter } from './modules/itemsCounter.js';
-import commentCounter from './modules/comment-counter';
+import commentCounter from './modules/comment-counter.js';
 
 const modalClose = () => {
   const modal = document.querySelector('#modal');
@@ -99,8 +99,7 @@ const main = async () => {
     objectID="${objectID}"
     title="${title}"
     likes="${likes}"
-    >
-    </item-card>`;
+    ></item-card>`;
       const commentBtn = document.createElement('button');
       const commentBtnClasses =
         'comment-btn bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded';
