@@ -33,9 +33,8 @@
 
 **JS-Capstone** The repository serves as a showcase to demonstrate proficiency in utilizing different tools and implementing established practices acquired during prior stages. this is a collaborative project.
 
-![Snapshot](/screenshot1.jpeg)
+![Snapshot](/screenshot1.jpg)
 ![Snapshot](/screenshot2.jpeg)
-![Snapshot](/screenshot3.jpeg)
 
 ## 🛠 Built With <a name="built-with"></a>
 
