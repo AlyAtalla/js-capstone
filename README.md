@@ -6,7 +6,7 @@
   <img src="rsz_my-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Hello, I'm Aly Atalla</b></h3>
+  <h3><b>Helo, I'm Aly Atalla</b></h3>
 
 </div>
 
