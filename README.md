@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-   <img src="rsz_my-logo.jpeg" alt="logo" width="140"  height="auto" />
+   <img src="rsz_my-logo.jpg" alt="logo" width="140"  height="auto" />
   <br/>
   <h3><b>JS Capstone</b></h3>
 
