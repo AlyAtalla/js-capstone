@@ -1,0 +1,45 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": ["airbnb-base"],
+  "rules": {
+    "no-shadow": "off",
+    "require-jsdoc": 0,
+    "import/prefer-default-export": 0,
+    "no-param-reassign": "off",
+    "no-restricted-syntax": 0,
+    "eol-last": "off",
+    "camelcase": 0,
+    "radix": 0,
+    "import/extensions": [
+      1,
+      {
+        "js": "always",
+        "json": "always"
+      }
+    ],
+    "consistent-return": 0,
+    "max-classes-per-file": ["error", 2],
+    "import/no-unresolved": "off",
+    "class-methods-use-this": "off",
+    "prefer-destructuring": "off"
+  },
+
+  "ignorePatterns": [
+    "coverage/",
+    "tests/",
+    "public/",
+    "postcss.config.js",
+    "webpack.config.js",
+    "tailwind.config.js",
+    "dist/"
+  ]
+}

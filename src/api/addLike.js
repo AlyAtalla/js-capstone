@@ -1,4 +1,4 @@
-import { APP_ID, INVOLVEMENT_API } from '../API-Data.js/index.js';
+import { APP_ID, INVOLVEMENT_API } from '../constants.js';
 
 export const addLike = async (item_id) => {
   try {
