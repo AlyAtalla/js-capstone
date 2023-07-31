@@ -116,7 +116,7 @@ const main = async () => {
       });
       itemDiv.appendChild(commentBtn);
       itemsContainer.appendChild(itemDiv);
-    }
+    },
   );
 
   const likeBtns = document.querySelectorAll('.like-btn');
