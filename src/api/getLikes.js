@@ -5,6 +5,8 @@ export const getLikes = async () => {
     const response = await fetch(`${INVOLVEMENT_API}/apps/${APP_ID}/likes`);
     return response.json();
   } catch (error) {
-    console.log('Error occurred during API call:', error);
+    // Empty catch block intentionally left blank
   }
 };
+
+export default getLikes;
