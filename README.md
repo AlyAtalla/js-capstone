@@ -30,7 +30,7 @@
 
 # 📖 Capstone <a name="about-project"></a>
 
-**Capstone-summit** The repository serves as a showcase to demonstrate proficiency in utilizing different tools and implementing established practices acquired during prior stages. this is a collaborative project.
+**JS-Capstone** The repository serves as a showcase to demonstrate proficiency in utilizing different tools and implementing established practices acquired during prior stages. this is a collaborative project.
 
 
 ## 🛠 Built With <a name="built-with"></a>
